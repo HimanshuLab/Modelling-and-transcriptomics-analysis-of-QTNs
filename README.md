@@ -1,5 +1,5 @@
 # Modelling-and-transcriptomics-analysis-of-QTNs
-The entire repository is organized in two folders:
+The entire repository is organized into two folders:
 1) metabolic-modelling-of-SPO-QTNs
 2) RNA_seq-analysis
 
@@ -9,11 +9,11 @@ __________________________________________________________________________
 
 **Description of other files**
 
-```QTN_specific_model_building.m```: This matlab code file builds all the QTN-specific models used in this study using the gene-expression data (**tpm_counts_Average.csv**) and the Yeast genome-scale model (**yeastGEM.mat**)
+```QTN_specific_model_building.m```: This Matlab code file builds all the QTN-specific models used in this study using the gene-expression data (**tpm_counts_Average.csv**) and the Yeast genome-scale model (**yeastGEM.mat**)
 
-```optgp_sampling.ipynb```: This notebook is for sampling analyis and data visualisation
+```optgp_sampling.ipynb```: This notebook is for sampling analysis and data visualisation
 
---localgini thresholding algorithm can be assessed using https://github.com/NiravBhattLab/Localgini/tree/main 
+--localgini thresholding algorithm can be assessed from https://github.com/NiravBhattLab/Localgini/tree/main 
 
 ### RNA_seq-analysis
 ```Deseq2_analysis_up_down.R```: This is for differential gene expression analysis
