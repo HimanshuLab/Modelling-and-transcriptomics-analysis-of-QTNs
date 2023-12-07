@@ -1,7 +1,5 @@
-# https-github.com-bt19d403-Modelling-and-transcriptomics-analysis-of-QTNs
-
 # Modelling-and-transcriptomics-analysis-of-QTNs
-The entire repository is organised in two folders:
+The entire repository is organized in two folders:
 1) metabolic-modelling-of-SPO-QTNs
 2) RNA_seq-analysis
 
@@ -13,7 +11,9 @@ __________________________________________________________________________
 
 ```QTN_specific_model_building.m```: This matlab code file builds all the QTN-specific models used in this study using the gene-expression data (**tpm_counts_Average.csv**) and the Yeast genome-scale model (**yeastGEM.mat**)
 
-```optgp_sampling.ipynb```: This notebook is for sampling analyis and data vizualisation
+```optgp_sampling.ipynb```: This notebook is for sampling analyis and data visualisation
+
+
 
 ### RNA_seq-analysis
 ```Deseq2_analysis_up_down.R```: This is for differential gene expression analysis
