@@ -11,8 +11,6 @@ __________________________________________________________________________
 
 ```CreateSNPSpecificModel.m```: This Matlab code file builds all the QTN-specific models using model extraction algorithms:iMAT, FASTCORE, and INIT by preprocessing the gene-expression data (**tpm_counts_Average.csv**) using LocalGini or Standep  from Yeast genome-scale model (**yeastGEM.mat**)
 
-```optgp_sampling.ipynb```: This notebook is for sampling analysis and data visualization
-
 --localgini thresholding algorithm can be assessed from https://github.com/NiravBhattLab/Localgini/tree/main 
 
 -- The models generated using LocalGini and iMAT are given in the folder.
